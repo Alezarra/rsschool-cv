@@ -1,0 +1,259 @@
+.body {
+    background-color: #FF85B3;
+}
+
+.header {
+    height: 100px;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item {
+    float: left;
+    list-style-type: none;
+    margin-top: 27px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    padding-right: 70px;
+}
+
+/*Обычная, непосещаемая ссылка*/
+.menu-link:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+/*Ссылка, которую посетил пользователь*/
+.menu-link:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+/*Ссылка, когда пользователь мыши над ним*/
+.menu-link:hover {
+    text-decoration: none;
+    color: #9900F0;
+    border-bottom-style: solid;
+    transition: 0.7s ease;
+}
+/*Ссылка момент щелчка*/
+.menu-link:active {
+    text-decoration: none;
+    color: #9900F0;
+    border-bottom-style: solid;
+    transition: 0.7s ease;
+}
+
+.top-section {
+    margin-bottom: 100px;
+}
+
+.border-code {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+.logo-git, .logo-behance, .logo-dribbble {
+    height: 40px;
+}
+
+.name-social-item {
+    list-style-type: none;
+    color: #FBD6D2;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.me{
+    display: flex;
+    justify-content: center;
+}
+
+.img-top {
+    height: 350px;
+    border-style: solid;
+    border-color: #F900BF;
+}
+
+.about-me-inform {
+    padding-left: 50px;
+}
+
+.name-me {
+    text-shadow: 3px 2px #F900BF;
+    color: #FBD6D2;
+    font-size: 35px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.name-contact-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -40px;
+}
+
+.name-contact-item {
+    list-style-type: none;
+    color: #FBD6D2;
+    font-family: 'Libre Baskerville', serif;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.about-me-header, .projects-header, .code-header, .courses-header {
+    border-bottom: 1px solid #ffffff;
+    font-size: 28px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    color: #9900F0;
+}
+
+.skills-header, .languages-header, .contacts-header {
+    border-bottom: 1px solid #ffffff;
+    font-size: 28px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    color: #4700D8;
+}
+
+.projects-list {
+    color: #FBD6D2;
+    font-family: 'Libre Baskerville', serif;
+    list-style-type: none;
+}
+
+.courses-list {
+    color: #FBD6D2;
+    font-family: 'Libre Baskerville', serif;
+    list-style-type: none;
+}
+
+.skills-list {
+    color: #FBD6D2;
+    font-family: 'Libre Baskerville', serif;
+    list-style-type: none;
+}
+
+.languages-list {
+    color: #FBD6D2;
+    font-family: 'Libre Baskerville', serif;
+    list-style-type: none;
+}
+
+.contacts-list {
+    color: #FBD6D2;
+    font-family: 'Libre Baskerville', serif;
+    list-style-type: none;
+}
+
+.about-me-text {
+    font-family: 'Libre Baskerville', serif;
+    color: #FBD6D2;
+    letter-spacing: 1px;
+}
+
+.main-section {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.right-section {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 700px;
+    margin-left: 10%;
+}
+
+.left-section {
+    border: 2px solid #ffffff;
+    background-color: #AB46D2;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 10%;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.octocat, .git-logo, .rs-logo {
+    height: 50px;
+}
+
+.github-link {
+    margin-right: 350px;
+}
+
+.rs-logo {
+    margin-left: 350px;
+}
+
+.year {
+    margin-right: 56px;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.projects-link:link {
+    text-decoration: none;
+    color: #FBD6D2;
+}
+
+.projects-link:visited {
+    text-decoration: none;
+    color: #FBD6D2;
+}
+
+.projects-link:hover {
+    color: #9900F0;
+    transition: 0.7s ease;
+}
+
+.projects-link:active {
+    color: #9900F0;
+    transition: 0.7s ease;
+}
+
+.contacts-link:link {
+    text-decoration: none;
+    color: #FBD6D2;
+}
+
+.contacts-link:visited {
+    text-decoration: none;
+    color: #FBD6D2;
+}
+
+.contacts-link:hover {
+    color: #F900BF;
+    transition: 0.7s ease;
+}
+
+.contacts-link:active {
+    color: #F900BF;
+    transition: 0.7s ease;
+}
