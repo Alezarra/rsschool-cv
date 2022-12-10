@@ -4,4 +4,4 @@
 https://Alezarra.github.io/rsschool-cv/cv
 
 2. CV
-https://Alezarra.github.io/rsschool-cv/cv/pages/
+https://Alezarra.github.io/rsschool-cv/
