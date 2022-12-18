@@ -1,0 +1,33 @@
+div.code_projects-skills {
+
+    margin-top: 5%;
+    @extend %position-photo;
+
+    div.code-projects {
+
+        @extend %position-code;
+
+        h2.code-header {
+
+            padding: 10px;
+            @extend %font-style-about-header;
+            @include font-style (25px, 1px, 5px);
+
+        }
+
+        pre.border-code {
+
+            padding: 5%;
+            margin-top: 40px;
+            width: 550px;
+            background-color: #CFD2CF;
+            font-family: $font-style-code;
+            @extend %border-menu;
+
+            code.code-text {
+
+                text-indent: 10px;
+            }
+        }
+    }
+}

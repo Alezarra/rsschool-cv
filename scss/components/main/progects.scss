@@ -1,0 +1,257 @@
+.projects {
+    margin-top: 40px;
+    .projects {
+        .projects-header {
+            padding: 10px;
+            @extend %font-style-about-header;
+            @include font-style (25px, 1px, 5px);
+        }
+        .projects-list {
+            @extend %flex-cards;
+            .cv {
+                margin-top: 40px;
+                box-shadow: $box-shadow;
+                @extend %card-container;
+                .projects-link {
+                    &:link {
+                        @extend %link-visited-1;
+                    }
+                    &:visited {
+                        @extend %link-visited-1;
+                    }
+                    &:hover {
+                        @extend %link-hover-visited-1;
+                    }
+                    &:active {
+                        @extend %link-hover-visited-1;
+                    }
+                    .project-container {
+                        .photo {
+                            .photo-progects {
+                                width: 290px;
+                                height: 220px;
+                            }
+                        }
+                        .text-about-project {
+                            padding: 7px;
+                            @extend %font-style-text-1;
+                            .text-progects {
+                                padding-top: 20px;
+                                @extend %font-style-text-2;
+                            }
+                        }
+                        .tools {
+                            margin-top: 51px;
+                            border-top: 1px solid #FFFFFF;
+                            @extend %tools-container;
+                            .logo-tools {
+                                @extend %logo-tools;
+                            }
+                            .logo-tools {
+                                @extend %logo-tools;
+                            }
+                            .logo-tools {
+                                @extend %logo-tools;
+                            }
+                        }
+                    }
+                }
+            }
+            .travel {
+
+                margin-top: 40px;
+                box-shadow: $box-shadow;
+                @extend %card-container;
+                .projects-link {
+                    &:link {
+                        @extend %link-visited-1;
+                    }
+                    &:visited {
+                        @extend %link-visited-1;
+                    }
+                    &:hover {
+                        @extend %link-hover-visited-1;
+                    }
+                    &:active {
+                        @extend %link-hover-visited-1;
+                    }
+                    .project-container {
+                        .photo {
+                            .photo-progects {
+                                width: 290px;
+                                height: 220px;
+                            }
+                        }
+                        .text-about-project {
+                            padding: 7px;
+                            @extend %font-style-text-1;
+                            .text-progects {
+                                padding-top: 20px;
+                                @extend %font-style-text-2;
+                            }
+                        }
+                        .tools {
+                            border-top: 1px solid #FFFFFF;
+                            @extend %tools-container;
+                            .logo-tools {
+                                @extend %logo-tools;
+                            }
+                            .logo-tools {
+                                @extend %logo-tools;
+                            }
+                            .logo-tools {
+                                @extend %logo-tools;
+                            }
+                        }
+                    }
+                }
+            }
+            .online-zoo {
+                margin-top: 40px;
+                margin-left: 40px;
+                box-shadow: $box-shadow;
+                @extend %card-container;
+                .projects-link {
+                    &:link {
+                        @extend %link-visited-1;
+                    }
+                    &:visited {
+                        @extend %link-visited-1;
+                    }
+                    &:hover {
+                        @extend %link-hover-visited-1;
+                    }
+                    &:active {
+                        @extend %link-hover-visited-1;
+                    }
+                    .project-container {
+                        .photo {
+                            .photo-progects {
+                                width: 290px;
+                                height: 220px;
+                            }
+                        }
+                        .text-about-project {
+                            padding: 7px;
+                            @extend %font-style-text-1;
+                            .text-progects {
+                                padding-top: 20px;
+                                @extend %font-style-text-2;
+                            }
+                        }
+                        .tools {
+                            border-top: 1px solid #FFFFFF;
+                            @extend %tools-container;
+                            .logo-tools {
+                                @extend %logo-tools;
+                            }
+                            .logo-tools {
+                                @extend %logo-tools;
+                            }
+                            .logo-tools {
+                                @extend %logo-tools;
+                            }
+                        }
+                    }
+                }
+            }
+            .plants {
+                margin-top: 40px;
+                box-shadow: $box-shadow;
+                @extend %card-container;
+                .projects-link {
+                    &:link {
+                        @extend %link-visited-1;
+                    }
+                    &:visited {
+                        @extend %link-visited-1;
+                    }
+                    &:hover {
+                        @extend %link-hover-visited-1;
+                    }
+                    &:active {
+                        @extend %link-hover-visited-1;
+                    }
+                    .project-container {
+                        .photo {
+                            .photo-progects {
+                                width: 290px;
+                                height: 220px;
+                            }
+                        }
+                        .text-about-project {
+                            padding: 7px;
+                            @extend %font-style-text-1;
+                            .text-progects {
+                                padding-top: 20px;
+                                @extend %font-style-text-2;
+                            }
+                        }
+                        .tools {
+                            border-top: 1px solid #FFFFFF;
+                            @extend %tools-container;
+                            .logo-tools {
+                                @extend %logo-tools;
+                            }
+                            .logo-tools {
+                                @extend %logo-tools;
+                            }
+                            .logo-tools {
+                                @extend %logo-tools;
+                            }
+                        }
+                    }
+                }
+            }
+            .momentum {
+
+                margin-top: 40px;
+                box-shadow: $box-shadow;
+                @extend %card-container;
+                .projects-link {
+                    &:link {
+                        @extend %link-visited-1;
+                    }
+                    &:visited {
+                        @extend %link-visited-1;
+                    }
+                    &:hover {
+                        @extend %link-hover-visited-1;
+                    }
+                    &:active {
+                        @extend %link-hover-visited-1;
+                    }
+                    .project-container {
+                        .photo {
+                            .photo-progects {
+                                width: 290px;
+                                height: 220px;
+                            }
+                        }
+                        .text-about-project {
+                            padding: 7px;
+                            @extend %font-style-text-1;
+                            .text-progects {
+                                padding-top: 20px;
+                                @extend %font-style-text-2;
+                            }
+                        }
+                        .tools {
+                            border-top: 1px solid #FFFFFF;
+                            @extend %tools-container;
+                            .logo-tools {
+                                @extend %logo-tools;
+                            }
+                            .logo-tools {
+                                @extend %logo-tools;
+                            }
+                            .logo-tools {
+                                @extend %logo-tools;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
