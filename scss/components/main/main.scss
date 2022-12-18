@@ -1,0 +1,11 @@
+main {
+    background-color: $color-cv;
+
+    width: 100%;
+
+    main.main-section {
+        height: 600px;
+
+        @extend %position-flex-main;
+    }
+}

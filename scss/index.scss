@@ -1,0 +1,33 @@
+@import "./common/reset.scss";
+@import "./common/variables.scss";
+@import "./common/extends.scss";
+@import "./common/mixins.scss";
+
+@import "./components/header/header.scss";
+@import "./components/main/main.scss";
+@import "./components/main/about_me.scss";
+@import "./components/main/code.scss";
+@import "./components/main/skills.scss";
+@import "./components/main/progects.scss";
+@import "./components/main/courses.scss";
+@import "./components/main/languages.scss";
+@import "./components/main/contacts.scss";
+@import "./components/footer/footer.scss";
+
+html {
+
+    scroll-behavior: smooth;
+
+    body {
+        background-color: $background-color;
+        box-shadow: 0px 4px 8px 8px rgba(18, 101, 87, 0.2);
+
+        width: $content-width;
+        padding: 0;
+        margin: 0;
+
+        background-position: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,12 +1,308 @@
+<!doctype html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>The HTML5 Herald</title>
-        <meta name="description" content="The HTML5 Herald">
-        <meta name="author" content="SitePoint">
-        <link rel="stylesheet" href="css/styles.css?v=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./style/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Norican&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+        <!--<link rel="icon" href="assets/images/" type="image/png" sizes="16x16">
+        <link rel="icon" href="img/C.png" type="image/png" sizes="32x32">
+        <link rel="icon" href="img/C.png" type="image/png" sizes="64x64">-->
+        <title>CV</title>
     </head>
-    <body>
-        <script src="js/scripts.js"></script>
+    <body class="body">
+        <header class="header">
+            <div class="top-menu">
+                <nav class="nav">
+                    <ul class="menu-list">
+                        <li class="menu-item"><a class="menu-link" href="#about">About me</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#skills">Skills</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#projects">Projects</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#code">Code</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#courses">Courses</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#languages">Languages</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="photo-about_me">
+                <div class="about-me">
+                    <div class="name">
+                        <h1 class="name-me">Alena Alezz</h1>
+                        <h3 class="prof">Front-End Developer</h3>
+                    </div>
+                    <div class="about">
+                        <section>
+                            <h2 id="about" class="about-me-header">About me</h2>
+                            <p class="about-me-text">I am a Junior Front-End developer.<br>I've been learning JavaScript for two month on
+                            CodeBasics and I want to learn UI/UX design.</p>
+                        </section>
+                    </div>
+                </div>
+                <div class="photo">
+                    <div class="img-container">
+                        <img class="img-top" src="images/2020-09-08 13-35-18.JPG" alt="photo profile">
+                    </div>
+                </div>
+            </div>
+            <div class="code_projects-skills">
+                <div class="code-projects">
+                    <div class="code">
+                        <section>
+                            <h2 id="code" class="code-header">Code</h2>
+                            <pre class="border-code">
+                                <code class="code-text">
+function even_or_odd(number) {
+    let numerType;
+    if (number % 2 === 0) {
+        numberType = 'Even';
+    } else {
+        numberType = 'Odd';
+    }
+    
+    return numberType;
+}
+                                </code>
+                            </pre>
+                        </section>
+                    </div>
+                    <div class="projects">
+                        <section class="projects">
+                            <h2 id="projects" class="projects-header">Projects</h2>
+                            <div class="progects-cards-container">
+                                <ul class="projects-list" id="proj-list">
+                                    <li class="cv">
+                                        <a class="projects-link" href="https://alezarra.github.io/rsschool-cv/" target="_blank">
+                                            <div class="project-container">
+                                                <div class="photo">
+                                                    <img src="./images/Screenshot_2.png" alt="cv" class="photo-progects">
+                                                </div>
+                                                <div class="text-about-project">CV
+                                                    <p class="text-progects">This is my CV.</p>
+                                                </div>
+                                                <div class="tools">
+                                                    <img src="./icons/html-5-svgrepo-com.svg" alt="html" class="logo-tools">
+                                                    <img src="./icons/css-3-logo-svgrepo-com.svg" alt="css" class="logo-tools">
+                                                    <img src="./icons/logo-b6e1ef6e.svg" alt="sass" class="logo-tools">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="online-zoo">
+                                        <a class="projects-link" href="https://rolling-scopes-school.github.io/alezarra-JSFE2022Q3/online-zoo/pages/main/index.html" target="_blank">
+                                            <div class="project-container">
+                                                <div class="photo">
+                                                    <img src="./images/Screenshot_1.png" alt="online-zoo" class="photo-progects">
+                                                </div>
+                                                <div class="text-about-project">Online-Zoo
+                                                    <p class="text-progects">A site where you can watch animals online, as well as feed them.</p>
+                                                </div>
+                                                <div class="tools">
+                                                    <img src="./icons/html-5-svgrepo-com.svg" alt="html" class="logo-tools">
+                                                    <img src="./icons/css-3-logo-svgrepo-com.svg" alt="css" class="logo-tools">
+                                                    <img src="./icons/logo-b6e1ef6e.svg" alt="sass" class="logo-tools">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <!-- <li class="travel">
+                                        <a class="projects-link" href="https://rolling-scopes-school.github.io/alezarra-JSFEPRESCHOOL2022Q2/travel/">
+                                            <div class="project-container">
+                                                <div class="photo"></div>
+                                                <div class="text-about-project">Travel</div>
+                                                <div class="tools"></div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="plants">
+                                        <a href="">
+                                            <div class="project-container">
+                                                <div class="photo"></div>
+                                                <div class="text-about-project">Plants</div>
+                                                <div class="tools"></div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="momentum">
+                                        <a href="">
+                                            <div class="project-container">
+                                                <div class="photo"></div>
+                                                <div class="text-about-project">Momentum</div>
+                                                <div class="tools"></div>
+                                            </div>
+                                        </a>
+                                    </li>-->
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="prof-skills">
+                        <section>
+                            <h2 class="skills-header" id="skills">Professional Skills</h2>
+                            <div class="skils-progress-bar">
+                                <div class="skills-list-container">
+                                    <ul class="skills-list">
+                                        <li class='skills-item'>
+                                            <img class='skills-logo' src="./icons/html-5-svgrepo-com.svg" alt="html">
+                                            <p class='item-1'>HTML</p>
+                                        </li>
+                                        <li class='skills-item'>
+                                            <img class='skills-logo' src="./icons/css-3-logo-svgrepo-com.svg" alt="css">
+                                            <p class='item-2'>CSS</p>
+                                        </li>
+                                        <li class='skills-item'>
+                                            <img class='skills-logo' src="./icons/logo-b6e1ef6e.svg" alt="sass">
+                                            <p class='item-3'>SASS</p>
+                                        </li>
+                                        <li class='skills-item'>
+                                            <img class='skills-logo' src="./icons/js-svgrepo-com.svg" alt="js">
+                                            <p class='item-4'>JavaScript</p>
+                                        </li>
+                                        <li class='skills-item'>
+                                            <img class='skills-logo' src="./icons/icons8-github.svg" alt="github">
+                                            <p class='item-5'>GitHub</p>
+                                        </li>
+                                        <li class='skills-item'>
+                                            <img class='skills-logo' src="./icons/figma-svgrepo-com.svg" alt="figma">
+                                            <p class='item-6'>Figma</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="soft-skills">
+                        <section>
+                            <h2 class="skills-header">Soft Skills</h2>
+                            <div class="skils-progress-bar">
+                                <div class="skills-list-container">
+                                    <ul class="skills-list">
+                                        <li class='skills-item'>Creativity</li>
+                                        <li class='skills-item'>Communication</li>
+                                        <li class='skills-item'>Team Player</li>
+                                        <li class='skills-item'>Organization</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="courses_languages-contacts">
+                <div class="courses-languages">
+                    <section class="courses">
+                        <h2 id="courses" class="courses-header">Courses</h2>
+                        <div class="courses-container">
+                            <div class="courses-list-container">
+                                <ol class="courses-list">
+                                    <li class="courses-item br-courses">
+                                        Open Education: Web-Programming (2020)
+                                    </li>
+                                    <li class="courses-item br-courses">
+                                        Stepic: HTML and CSS Basics (2021)
+                                    </li>
+                                    <li class="courses-item br-courses">
+                                        CodeBasics: HTML Basic (2022)
+                                    </li>
+                                    <li class="courses-item br-courses">
+                                        CodeBasics: CSS basic  (2022)
+                                    </li>
+                                    <li class="courses-item br-courses">
+                                        CodeBasics: JavaScript Basics  (2022)
+                                    </li>
+                                    <li class="courses-item br-courses">
+                                        Roling Scopes School: JS/FE Pre-School 2022  (2022)
+                                    </li>
+                                    <li class="courses-item br-courses">
+                                        Roling Scopes School: JavaScript/Front-end 2022  (2023)
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="languages">
+                        <h2 class="languages-header" id="languages">Languages</h2>
+                        <ul class="languages-list">
+                            <li>Russian - native</li>
+                            <li>English - A2</li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="contacts">
+                    <section>
+                        <div class="contacts-section">
+                            <h2 class="contacts-header" id="contacts">Contacts</h2>
+                        <div class="name-contact-list-container">
+                            <ul class="name-contact-list">
+                                <li class="name-contact-item">
+                                    <img class="logo-phone logo" src="./icons/free-icon-phone-9068497.png" alt="phone">
+                                    <a class="top-link" href="tel:+79162847101">
+                                        Phone
+                                    </a>
+                                </li>
+                                <li class="name-contact-item">
+                                    <img class="logo-mail logo" src="./icons/free-icon-gmail-4926637.png" alt="E-mail">
+                                    <a class="top-link" href="mailto:alezz.alena12@gmail.com">
+                                        Gmail
+                                    </a>
+                                </li>
+                                <li class="name-contact-item">
+                                    <img class="logo-telegram logo" src="./icons/free-icon-telegram-2111646.png" alt="Telegram">
+                                    <a class="top-link" href="https://t.me/alezarra">
+                                        Telegram @alezarra
+                                    </a>
+                                </li>
+                                <li class="name-contact-item">
+                                    <img class="logo-discord logo" src="./icons/free-icon-discord-2111370.png" alt="Discord">
+                                    <a class="top-link" href="https://discord.com/users/Alezarra#9857">
+                                        Discord Alezarra#9857
+                                    </a>
+                                </li>
+                                <li class="name-contact-item ">
+                                    <img class="logo-behance logo" src="./icons/icons8-behance.svg" alt="Behance">
+                                    <a class="top-link" href="https://www.behance.net/e1835d89">
+                                        Behance
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-section">
+                <div class="github-link">
+                    <img class="octocat" src="./icons/Octocat.png" alt="Octocat">
+                    <a class="footer-link" href="https://github.com/Alezarra">
+                        <img class="git-logo" src="./icons/GitHub_Logo.png" alt="GitHub">
+                    </a>
+                </div>
+                <h2 class="year font">2022</h2>
+                <a class="footer-link" href="https://rs.school/js-stage0/">
+                    <img class="rs-logo" src="./icons/rs_school_logo.svg" alt="Rs_School_logo">
+                </a>
+            </div>
+        </footer>
     </body>
 </html>

@@ -1,0 +1,670 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  border-radius: 0;
+}
+
+.footer .footer-section, div.skills, div.code_projects-skills div.code-projects pre.border-code, header.header div.top-menu nav.nav {
+  border: 1px solid #377D71;
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.3);
+}
+
+.footer .footer-section .year {
+  color: #FBD6D2;
+  font-family: "Satisfy", cursive;
+  font-size: 25px;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.projects .projects .projects-list .momentum .projects-link .project-container .text-about-project, .projects .projects .projects-list .plants .projects-link .project-container .text-about-project, .projects .projects .projects-list .online-zoo .projects-link .project-container .text-about-project, .projects .projects .projects-list .travel .projects-link .project-container .text-about-project, .projects .projects .projects-list .cv .projects-link .project-container .text-about-project {
+  font-size: 22px;
+  font-family: "Satisfy", cursive;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.projects .projects .projects-list .momentum .projects-link .project-container .text-about-project .text-progects, .projects .projects .projects-list .plants .projects-link .project-container .text-about-project .text-progects, .projects .projects .projects-list .online-zoo .projects-link .project-container .text-about-project .text-progects, .projects .projects .projects-list .travel .projects-link .project-container .text-about-project .text-progects, .projects .projects .projects-list .cv .projects-link .project-container .text-about-project .text-progects {
+  font-size: 16px;
+  font-family: "Satisfy", cursive;
+  letter-spacing: 2px;
+}
+
+.contacts .contacts-section .contacts-header, .languages .languages-header, .courses_languages-contacts .courses-languages .courses .courses-header, .projects .projects .projects-header, div.skills div.soft-skills h2.skills-header, div.skills div.prof-skills h2.skills-header, div.code_projects-skills div.code-projects h2.code-header, div.photo-about_me div.about-me div.about h2.about-me-header {
+  border-bottom: 1px solid #ffffff;
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+  color: #FBD6D2;
+  font-family: "Satisfy", cursive;
+  font-weight: bold;
+}
+
+div.photo-about_me div.about-me div.name h3.prof, div.photo-about_me div.about-me div.name h1.name-me {
+  font-family: "Satisfy", cursive;
+  font-weight: bold;
+}
+
+.courses_languages-contacts .courses-languages .courses .courses-container .courses-list-container .courses-list {
+  color: #FBD6D2;
+  font-family: "DM Serif Display", serif;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.contacts .name-contact-list-container .name-contact-list {
+  color: #FBD6D2;
+  font-family: "DM Serif Display", serif;
+  list-style-type: none;
+  font-size: 18px;
+}
+
+div.skills div.soft-skills div.skils-progress-bar div.skills-list-container ul.skills-list, div.skills div.prof-skills div.skils-progress-bar div.skills-list-container ul.skills-list {
+  color: #FBD6D2;
+  font-family: "DM Serif Display", serif;
+}
+
+.contacts .name-contact-list-container .name-contact-list .name-contact-item .top-link, header.header div.top-menu nav.nav, header.header div.top-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main main.main-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+div.photo-about_me div.about-me {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+header.header div.top-menu nav.nav ul.menu-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div.skills div.soft-skills, div.skills div.prof-skills, div.skills {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.courses_languages-contacts {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.courses_languages-contacts .courses-languages .courses .courses-container, div.code_projects-skills, div.photo-about_me div.photo, div.photo-about_me {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts, .courses_languages-contacts .courses-languages, div.code_projects-skills div.code-projects {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+div.skills div.soft-skills, div.skills div.prof-skills, div.skills {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contacts .contacts-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.contacts .name-contact-list-container .name-contact-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contacts .name-contact-list-container .name-contact-list .name-contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header.header div.top-menu nav.nav ul.menu-list li.menu-item a.menu-link:visited, header.header div.top-menu nav.nav ul.menu-list li.menu-item a.menu-link:link {
+  text-decoration: none;
+  color: #FBD6D2;
+}
+
+header.header div.top-menu nav.nav ul.menu-list li.menu-item a.menu-link:active, header.header div.top-menu nav.nav ul.menu-list li.menu-item a.menu-link:hover {
+  text-decoration: none;
+  color: #FBA1A1;
+  border-bottom-style: solid;
+  transition: 0.7s ease;
+}
+
+.projects .projects .projects-list .momentum .projects-link:visited, .projects .projects .projects-list .momentum .projects-link:link, .projects .projects .projects-list .plants .projects-link:visited, .projects .projects .projects-list .plants .projects-link:link, .projects .projects .projects-list .online-zoo .projects-link:visited, .projects .projects .projects-list .online-zoo .projects-link:link, .projects .projects .projects-list .travel .projects-link:visited, .projects .projects .projects-list .travel .projects-link:link, .projects .projects .projects-list .cv .projects-link:visited, .projects .projects .projects-list .cv .projects-link:link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.projects .projects .projects-list .momentum .projects-link:active, .projects .projects .projects-list .momentum .projects-link:hover, .projects .projects .projects-list .plants .projects-link:active, .projects .projects .projects-list .plants .projects-link:hover, .projects .projects .projects-list .online-zoo .projects-link:active, .projects .projects .projects-list .online-zoo .projects-link:hover, .projects .projects .projects-list .travel .projects-link:active, .projects .projects .projects-list .travel .projects-link:hover, .projects .projects .projects-list .cv .projects-link:active, .projects .projects .projects-list .cv .projects-link:hover {
+  text-decoration: none;
+  color: #377D71;
+  transition: 0.7s ease;
+}
+
+.projects .projects .projects-list .momentum, .projects .projects .projects-list .plants, .projects .projects .projects-list .online-zoo, .projects .projects .projects-list .travel, .projects .projects .projects-list .cv {
+  width: 290px;
+  height: 400px;
+  border-radius: 20px;
+  background-color: #CFD2CF;
+  box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.3);
+}
+
+.projects .projects .projects-list .momentum .projects-link .project-container .tools, .projects .projects .projects-list .plants .projects-link .project-container .tools, .projects .projects .projects-list .online-zoo .projects-link .project-container .tools, .projects .projects .projects-list .travel .projects-link .project-container .tools, .projects .projects .projects-list .cv .projects-link .project-container .tools {
+  margin-top: 20px;
+  height: 55px;
+  border-radius: 0px 0px 20px 20px;
+  background-color: #a3a5a3;
+}
+
+.projects .projects .projects-list .momentum .projects-link .project-container .tools .logo-tools, .projects .projects .projects-list .plants .projects-link .project-container .tools .logo-tools, .projects .projects .projects-list .online-zoo .projects-link .project-container .tools .logo-tools, .projects .projects .projects-list .travel .projects-link .project-container .tools .logo-tools, .projects .projects .projects-list .cv .projects-link .project-container .tools .logo-tools {
+  height: 30px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.projects .projects .projects-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.courses_languages-contacts .courses-languages .courses .courses-container .courses-list-container .courses-list {
+  list-style-type: none;
+  counter-reset: num;
+  position: relative;
+  margin: 0 0 0 60px;
+  padding: 15px 0 5px 0;
+  font-size: 16px;
+}
+
+.courses_languages-contacts .courses-languages .courses .courses-container .courses-list-container .courses-list .courses-item {
+  position: relative;
+  margin: 0 0 0 0;
+  padding: 0 0 10px 0;
+  line-height: 1.4;
+}
+
+.courses_languages-contacts .courses-languages .courses .courses-container .courses-list-container .courses-list .courses-item::after {
+  content: counter(num);
+  counter-increment: num;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -45px;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  background: #FBA1A1;
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 50%;
+  border: 1px solid #ef6780;
+}
+
+.courses_languages-contacts .courses-languages .courses .courses-container .courses-list-container .courses-list::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  bottom: 15px;
+  left: -30px;
+  width: 1px;
+  border-left: 1px solid #ef6780;
+}
+
+.languages .languages-list {
+  list-style-type: none;
+  color: #FBD6D2;
+  font-family: "DM Serif Display", serif;
+  font-size: 20px;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+.contacts .contacts-section {
+  border: 1px solid #377D71;
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.3);
+  padding: 5%;
+}
+
+header.header {
+  height: 100px;
+  background-color: #377D71;
+}
+header.header div.top-menu {
+  height: 100px;
+}
+header.header div.top-menu nav.nav {
+  height: 80px;
+  width: 90%;
+}
+header.header div.top-menu nav.nav ul.menu-list li.menu-item {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 32px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  font-family: "Norican", cursive;
+  font-weight: bold;
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+}
+main {
+  background-color: #377D71;
+  width: 100%;
+}
+main main.main-section {
+  height: 600px;
+}
+
+div.photo-about_me {
+  padding-top: 5%;
+}
+div.photo-about_me div.about-me {
+  width: 100%;
+  margin-left: 15%;
+  margin-right: 10%;
+}
+div.photo-about_me div.about-me div.name {
+  padding-left: 2%;
+}
+div.photo-about_me div.about-me div.name h1.name-me {
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+  color: #FBD6D2;
+  font-size: 45px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+div.photo-about_me div.about-me div.name h3.prof {
+  margin-top: 15px;
+  color: #FBA1A1;
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+  font-size: 30px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+div.photo-about_me div.about-me div.about h2.about-me-header {
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 25px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+div.photo-about_me div.about-me div.about p.about-me-text {
+  font-family: "DM Serif Display", serif;
+  font-size: 20px;
+  color: #FBD6D2;
+  letter-spacing: 1px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+div.photo-about_me div.photo {
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 15%;
+}
+div.photo-about_me div.photo img.img-top {
+  height: 350px;
+  box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+div.code_projects-skills {
+  margin-top: 5%;
+}
+div.code_projects-skills div.code-projects h2.code-header {
+  padding: 10px;
+  font-size: 25px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+div.code_projects-skills div.code-projects pre.border-code {
+  padding: 5%;
+  margin-top: 40px;
+  width: 550px;
+  background-color: #CFD2CF;
+  font-family: "Syne Mono", monospace;
+}
+div.code_projects-skills div.code-projects pre.border-code code.code-text {
+  text-indent: 10px;
+}
+
+div.skills {
+  margin-left: 10%;
+  height: 600px;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+div.skills div.prof-skills {
+  margin: 10%;
+}
+div.skills div.prof-skills h2.skills-header {
+  width: 100%;
+  margin-top: 2%;
+  font-size: 30px;
+  letter-spacing: 1px;
+  word-spacing: 15px;
+}
+div.skills div.prof-skills div.skils-progress-bar div.skills-list-container ul.skills-list {
+  list-style-type: none;
+  font-size: 20px;
+  margin-top: 10%;
+}
+div.skills div.prof-skills div.skils-progress-bar div.skills-list-container ul.skills-list li.skills-item {
+  margin-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: flex-start;
+}
+div.skills div.prof-skills div.skils-progress-bar div.skills-list-container ul.skills-list li.skills-item img.skills-logo {
+  height: 30px;
+}
+div.skills div.prof-skills div.skils-progress-bar div.skills-list-container ul.skills-list p.item-1 {
+  padding-left: 12px;
+}
+div.skills div.prof-skills div.skils-progress-bar div.skills-list-container ul.skills-list p.item-2 {
+  padding-left: 12px;
+}
+div.skills div.prof-skills div.skils-progress-bar div.skills-list-container ul.skills-list p.item-3 {
+  padding-left: 3px;
+}
+div.skills div.prof-skills div.skils-progress-bar div.skills-list-container ul.skills-list p.item-4 {
+  padding-left: 11px;
+}
+div.skills div.prof-skills div.skils-progress-bar div.skills-list-container ul.skills-list p.item-5 {
+  padding-left: 11px;
+}
+div.skills div.prof-skills div.skils-progress-bar div.skills-list-container ul.skills-list p.item-6 {
+  padding-left: 11px;
+}
+div.skills div.soft-skills {
+  margin: 10%;
+}
+div.skills div.soft-skills h2.skills-header {
+  width: 100%;
+  margin-top: 2%;
+  font-size: 30px;
+  letter-spacing: 1px;
+  word-spacing: 15px;
+}
+div.skills div.soft-skills div.skils-progress-bar div.skills-list-container ul.skills-list {
+  list-style-type: none;
+  font-size: 20px;
+  margin-top: 10%;
+}
+div.skills div.soft-skills div.skils-progress-bar div.skills-list-container ul.skills-list li.skills-item {
+  margin-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.projects {
+  margin-top: 40px;
+}
+.projects .projects .projects-header {
+  padding: 10px;
+  font-size: 25px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+.projects .projects .projects-list .cv {
+  margin-top: 40px;
+  box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.3);
+}
+.projects .projects .projects-list .cv .projects-link .project-container .photo .photo-progects {
+  width: 290px;
+  height: 220px;
+}
+.projects .projects .projects-list .cv .projects-link .project-container .text-about-project {
+  padding: 7px;
+}
+.projects .projects .projects-list .cv .projects-link .project-container .text-about-project .text-progects {
+  padding-top: 20px;
+}
+.projects .projects .projects-list .cv .projects-link .project-container .tools {
+  margin-top: 51px;
+  border-top: 1px solid #FFFFFF;
+}
+.projects .projects .projects-list .travel {
+  margin-top: 40px;
+  box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.3);
+}
+.projects .projects .projects-list .travel .projects-link .project-container .photo .photo-progects {
+  width: 290px;
+  height: 220px;
+}
+.projects .projects .projects-list .travel .projects-link .project-container .text-about-project {
+  padding: 7px;
+}
+.projects .projects .projects-list .travel .projects-link .project-container .text-about-project .text-progects {
+  padding-top: 20px;
+}
+.projects .projects .projects-list .travel .projects-link .project-container .tools {
+  border-top: 1px solid #FFFFFF;
+}
+.projects .projects .projects-list .online-zoo {
+  margin-top: 40px;
+  margin-left: 40px;
+  box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.3);
+}
+.projects .projects .projects-list .online-zoo .projects-link .project-container .photo .photo-progects {
+  width: 290px;
+  height: 220px;
+}
+.projects .projects .projects-list .online-zoo .projects-link .project-container .text-about-project {
+  padding: 7px;
+}
+.projects .projects .projects-list .online-zoo .projects-link .project-container .text-about-project .text-progects {
+  padding-top: 20px;
+}
+.projects .projects .projects-list .online-zoo .projects-link .project-container .tools {
+  border-top: 1px solid #FFFFFF;
+}
+.projects .projects .projects-list .plants {
+  margin-top: 40px;
+  box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.3);
+}
+.projects .projects .projects-list .plants .projects-link .project-container .photo .photo-progects {
+  width: 290px;
+  height: 220px;
+}
+.projects .projects .projects-list .plants .projects-link .project-container .text-about-project {
+  padding: 7px;
+}
+.projects .projects .projects-list .plants .projects-link .project-container .text-about-project .text-progects {
+  padding-top: 20px;
+}
+.projects .projects .projects-list .plants .projects-link .project-container .tools {
+  border-top: 1px solid #FFFFFF;
+}
+.projects .projects .projects-list .momentum {
+  margin-top: 40px;
+  box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.3);
+}
+.projects .projects .projects-list .momentum .projects-link .project-container .photo .photo-progects {
+  width: 290px;
+  height: 220px;
+}
+.projects .projects .projects-list .momentum .projects-link .project-container .text-about-project {
+  padding: 7px;
+}
+.projects .projects .projects-list .momentum .projects-link .project-container .text-about-project .text-progects {
+  padding-top: 20px;
+}
+.projects .projects .projects-list .momentum .projects-link .project-container .tools {
+  border-top: 1px solid #FFFFFF;
+}
+.courses_languages-contacts {
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+.courses_languages-contacts .courses-languages .courses .courses-header {
+  padding: 10px;
+  font-size: 25px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+.courses_languages-contacts .courses-languages .courses .courses-container .courses-list-container .courses-list {
+  margin-top: 5%;
+}
+.courses_languages-contacts .courses-languages .courses .courses-container .courses-list-container .courses-list .br-courses {
+  margin-bottom: 7%;
+}
+
+.languages {
+  margin-top: 5%;
+}
+.languages .languages-header {
+  width: 100%;
+  margin-top: 2%;
+  font-size: 30px;
+  letter-spacing: 1px;
+  word-spacing: 15px;
+}
+.contacts {
+  margin-top: 1%;
+  margin-left: 200px;
+  width: 25%;
+}
+.contacts .contacts-section .contacts-header {
+  width: 100%;
+  margin-top: 2%;
+  font-size: 30px;
+  letter-spacing: 1px;
+  word-spacing: 15px;
+}
+.contacts .name-contact-list-container {
+  margin-top: 5%;
+}
+.contacts .name-contact-list-container .name-contact-list .name-contact-item {
+  padding: 15px;
+}
+.contacts .name-contact-list-container .name-contact-list .name-contact-item .logo {
+  height: 40px;
+  margin-right: 15px;
+}
+.contacts .name-contact-list-container .name-contact-list .name-contact-item .top-link:link {
+  text-decoration: none;
+  color: #FBD6D2;
+}
+.contacts .name-contact-list-container .name-contact-list .name-contact-item .top-link:visited {
+  text-decoration: none;
+  color: #FBD6D2;
+}
+.contacts .name-contact-list-container .name-contact-list .name-contact-item .top-link:hover {
+  text-decoration: none;
+  color: #FBA1A1;
+  border-bottom-style: solid;
+  transition: 0.6s ease;
+}
+.contacts .name-contact-list-container .name-contact-list .name-contact-item .top-link:active {
+  text-decoration: none;
+  color: #FBA1A1;
+  border-bottom-style: solid;
+  transition: 0.6s ease;
+}
+
+.footer {
+  background-color: #377D71;
+  padding: 4%;
+}
+.footer .footer-section {
+  padding: 2%;
+}
+.footer .footer-section .github-link {
+  margin-right: 350px;
+}
+.footer .footer-section .github-link .octocat {
+  height: 40px;
+}
+.footer .footer-section .github-link .footer-link .git-logo {
+  height: 40px;
+}
+.footer .footer-section .year {
+  margin-right: 56px;
+}
+.footer .footer-section .footer-link .rs-logo {
+  margin-left: 350px;
+  height: 40px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  background-color: #CFD2CF;
+  box-shadow: 0px 4px 8px 8px rgba(18, 101, 87, 0.2);
+  width: 1240px;
+  padding: 0;
+  margin: 0;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
