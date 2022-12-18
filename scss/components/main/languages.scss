@@ -1,0 +1,12 @@
+.languages {
+    margin-top: 5%;
+    .languages-header {
+        width: 100%;
+        margin-top: 2%;
+        @extend %font-style-about-header;
+        @include font-style (30px, 1px, 15px);
+    }
+    .languages-list {
+        @extend %languages-list-style;
+    }
+}

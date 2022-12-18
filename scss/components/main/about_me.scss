@@ -1,0 +1,72 @@
+div.photo-about_me {
+
+    padding-top: 5%;
+    @extend %position-photo;
+
+    div.about-me {
+
+        width: 100%;
+        @include margin-left-right (15%, 10%);
+        @extend %position-flex-about-me;
+    
+        div.name {
+    
+            padding-left: 2%;
+    
+            h1.name-me {
+    
+                text-shadow: $text-shadow;
+                color: $font-color;
+                @extend %font-style-about-prof;
+                @include font-style (45px, 1px, 5px);
+    
+            }
+    
+            h3.prof {
+
+                margin-top: 15px;
+                color: $font-color-shadow;
+                text-shadow: $text-shadow;
+                @extend %font-style-about-prof;
+                @include font-style (30px, 1px, 5px);
+    
+            }
+        }
+    
+        div.about {
+    
+            h2.about-me-header {
+                margin-top: 40px;
+                padding: 10px;
+                @extend %font-style-about-header;
+                @include font-style (25px, 1px, 5px);
+    
+            }
+    
+            p.about-me-text {
+    
+                font-family: 'DM Serif Display', serif;
+                font-size: 20px;
+                color: #FBD6D2;
+                letter-spacing: 1px;
+                padding: 10px;
+                @include margin-top-bottom (10px, 20px);
+            }
+        }
+    }
+    
+    div.photo {
+    
+        width: 100%;
+        @extend %position-photo;
+        @include margin-left-right (10%, 15%);
+
+        img.img-top {
+
+            height: 350px;
+            box-shadow: $box-shadow;
+            border-radius: 10px;
+
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.courses_languages-contacts {
+    margin-top: 5%;
+    padding-bottom: 5%;
+    @extend %position-courses;
+    .courses-languages {
+        @extend %position-code;
+        .courses {
+            .courses-header {
+                padding: 10px;
+                @extend %font-style-about-header;
+                @include font-style (25px, 1px, 5px);
+            }
+            .courses-container {
+                @extend %position-photo;
+                .courses-list-container {
+                    .courses-list {
+                        @extend %courses-style-1;
+                        margin-top: 5%;
+
+                        &::before {
+                            @extend %courses-style-4;
+                        }
+                        @extend %font-style-courses;
+                        .courses-item {
+                            @extend %courses-style-2;
+
+                            &::after {
+                                @extend %courses-style-3;
+                            }
+                        }
+                        .br-courses {
+                            margin-bottom: 7%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

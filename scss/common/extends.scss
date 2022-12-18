@@ -1,0 +1,276 @@
+%border-menu {
+    border: 1px solid $color-cv;
+    border-radius: 10px;
+    box-shadow: $box-shadow;
+}
+
+
+
+%font-style-footer {
+    color: #FBD6D2;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+}
+%font-style-menu {
+    font-size: 32px;
+    font-family: $font-style-menu;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 10px;   
+}
+
+%font-style-text-1 {
+    font-size: 22px;
+    font-family: $font-style-name;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+%font-style-text-2 {
+    font-size: 16px;
+    font-family: $font-style-name;
+    letter-spacing: 2px;  
+}
+
+%font-style-about-header {
+    border-bottom: 1px solid #ffffff;
+    text-shadow: $text-shadow;
+    color: $font-color;
+
+    font-family: $font-style-name;
+    font-weight: bold;
+}
+
+%font-style-about-prof {
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+}
+
+%font-style-courses {
+    color: #FBD6D2;
+    font-family: 'DM Serif Display', serif;
+    list-style-type: none;
+    font-size: 20px;
+}
+%font-style-contacts {
+    color: #FBD6D2;
+    font-family: 'DM Serif Display', serif;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+%font-style-text {
+    color: $font-color;
+    font-family: $font-style-text;
+}
+
+
+
+
+%position-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%position-flex-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+%position-flex-about-me {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+%position-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+%position-skills {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+%position-courses {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+%position-photo {
+    display: flex;
+    justify-content: center;
+}
+
+%position-code {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+%position-skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+%position-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+%position-contacts-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+%position-contacts-3 {
+    display: flex;
+    align-items: center;
+}
+%position-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+%link-visited {
+    text-decoration: none;
+    color: $font-color;
+}
+
+%link-hover-visited {
+    text-decoration: none;
+    color: $font-color-shadow;
+    border-bottom-style: solid;
+    transition: 0.7s ease;
+}
+
+%link-visited-1 {
+    text-decoration: none;
+    color: #000000;
+}
+
+%link-hover-visited-1 {
+    text-decoration: none;
+    color: $color-cv;
+    transition: 0.7s ease;
+}
+
+
+
+
+%card-container {
+    width: 290px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: $background-color;
+    box-shadow: $box-shadow;
+}
+
+%tools-container {
+    margin-top: 20px;
+    height: 55px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #a3a5a3
+}
+
+
+
+%logo-tools {
+    height: 30px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+
+%flex-cards {
+    display: flex;
+    justify-content: space-between;
+}
+%flex-cards-1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+%courses-style-1 {
+    list-style-type: none;
+    counter-reset: num;
+    position: relative;
+    margin: 0 0 0 60px;
+    padding: 15px 0 5px 0;
+	font-size: 16px;
+}
+%courses-style-2 {
+    position: relative;	
+	margin: 0 0 0 0;
+	padding: 0 0 10px 0;
+	line-height: 1.4;
+}
+%courses-style-3 {
+    content: counter(num); 
+	counter-increment: num;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: -45px;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	background: #FBA1A1;
+	color: #000;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 50%;
+	border: 1px solid #ef6780;
+}
+%courses-style-4 {
+    content: ''; 
+	position: absolute;
+	top: 15px;
+	bottom: 15px;
+	left: -30px;    
+	width: 1px;
+	border-left: 1px solid #ef6780;
+}
+
+%languages-list-style {
+    list-style-type: none;
+    color: #FBD6D2;
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+
+
+
+%contact-section-style {
+    border: 1px solid #377D71;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px 1px rgb(0 0 0 / 30%);
+    padding: 5%;
+}
+%contact-section-style-2 {
+    list-style-type: none;
+    color: #FBD6D2;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    text-shadow: 3px 3px 0px rgb(0 0 0 / 20%);
+}
