@@ -1,0 +1,113 @@
+div.skills {
+
+    margin-left: 10%;
+    height: 600px;
+    @extend %position-skills;
+    @extend %border-menu;
+    @include padding-left-right (3%, 3%);
+
+    div.prof-skills {
+
+        margin: 10%;
+        @extend %position-skills;
+
+        h2.skills-header {
+
+            width: 100%;
+            margin-top: 2%;
+            @extend %font-style-about-header;
+            @include font-style (30px, 1px, 15px);
+
+        }
+        div.skils-progress-bar {
+            div.skills-list-container {
+                ul.skills-list {
+
+                    list-style-type: none;
+                    font-size: 20px;
+                    margin-top: 10%;
+
+                    @extend %font-style-text;
+
+                    li.skills-item {
+
+                        margin-right: 5%;
+                        padding-top: 2%;
+                        padding-bottom: 2%;
+                        display: flex;
+                        justify-content: flex-start;
+
+                        img.skills-logo {
+
+                            height: 30px;
+
+                        }
+                    }
+
+                    p.item-1 {
+                        
+                        @include item-position (12px);
+                    }
+                    p.item-2 {
+                        
+                        @include item-position (12px);
+                    }
+                    p.item-3 {
+                        
+                        @include item-position (3px);
+                    }
+                    p.item-4 {
+                        
+                        @include item-position (11px);
+                    }
+                    p.item-5 {
+                        
+                        @include item-position (11px);
+                    }
+                    p.item-6 {
+                        
+                        @include item-position (11px);
+                    }
+
+                }
+            }
+        }
+    }
+    div.soft-skills {
+
+        margin: 10%;
+        @extend %position-skills;
+
+        h2.skills-header {
+
+            width: 100%;
+            margin-top: 2%;
+            @extend %font-style-about-header;
+            @include font-style (30px, 1px, 15px);
+
+        }
+
+        div.skils-progress-bar {
+
+            div.skills-list-container {
+
+                ul.skills-list {
+
+                    list-style-type: none;
+                    font-size: 20px;
+                    margin-top: 10%;
+                    @extend %font-style-text;
+
+                    li.skills-item {
+
+                        margin-right: 5%;
+                        padding-top: 2%;
+                        padding-bottom: 2%;
+
+                    }
+                }
+            }
+        }
+
+    }
+}

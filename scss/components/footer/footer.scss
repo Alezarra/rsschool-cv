@@ -1,0 +1,30 @@
+.footer {
+    background-color: #377D71;
+    padding: 4%;
+    .footer-section {
+        padding: 2%;
+        @extend %position-footer;
+        @extend %border-menu;
+        .github-link{
+            margin-right: 350px;
+            .octocat{
+                height: 40px;
+            }
+            .footer-link {
+                .git-logo {
+                    height: 40px;
+                }
+            }
+        }
+        .year {
+            margin-right: 56px;
+            @extend %font-style-footer;
+        }
+        .footer-link {
+            .rs-logo {
+                margin-left: 350px;
+                height: 40px;
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+header.header {
+
+    height: $block-height;
+    background-color: $color-cv;
+
+    div.top-menu {
+        height: $block-height;
+
+        @extend %position-flex;
+
+        nav.nav {
+
+            @extend %border-menu;
+            @extend %position-flex;
+
+            height: 80px;
+            width: 90%;
+
+            ul.menu-list {
+
+                @extend %position-nav;
+
+                li.menu-item {
+
+                    @include margin-left-right (20px, 20px);
+                    @include font-style (32px, 2px, 10px);
+
+                    font-family: $font-style-menu;
+                    font-weight: bold;
+
+                    text-shadow: $text-shadow;
+
+                    a.menu-link {
+
+                        &:link {
+                            @extend %link-visited;
+                        }
+
+                        &:visited {
+                            @extend %link-visited;
+                        }
+
+                        &:hover {
+                            @extend %link-hover-visited;
+                        }
+
+                        &:active {
+                            @extend %link-hover-visited;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
